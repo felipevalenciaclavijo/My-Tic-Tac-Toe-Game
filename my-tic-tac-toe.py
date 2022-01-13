@@ -19,10 +19,10 @@ def main():
         
         if game_result[0] == "wins":
             if turns[0] == "O":
-                print("X's wins!")
+                print("X wins!")
                 print("Good game. Thanks for playing!")
             else:
-                print("O's wins!")
+                print("O wins!")
                 print("Good game. Thanks for playing!")
         elif game_result[0] == "draw":
             print("Draw!")
